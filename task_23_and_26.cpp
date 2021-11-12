@@ -24,7 +24,7 @@ void abob() {
     a.close();
 }
 
-void abod() {
+void abos() {
     string s;
     ifstream a("in2.txt");
     ofstream b("out2.txt");
@@ -53,5 +53,5 @@ void abod() {
 int main()
 {
     abob();
-    abod();
+    abos();
 }

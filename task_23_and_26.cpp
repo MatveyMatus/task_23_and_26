@@ -4,7 +4,7 @@
 #include <map>
 using namespace std;
 
-void task_23() {
+void abob() {
     string s;
     ifstream a("in1.txt");
     ofstream b("out1.txt");
@@ -24,7 +24,7 @@ void task_23() {
     a.close();
 }
 
-void task_26() {
+void abod() {
     string s;
     ifstream a("in2.txt");
     ofstream b("out2.txt");
@@ -52,6 +52,6 @@ void task_26() {
 
 int main()
 {
-    task_23();
-    task_26();
+    abob();
+    abod();
 }
